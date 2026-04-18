@@ -15,10 +15,6 @@ const replySchema = new mongoose.Schema({
         ref:"User",
         required:true
     },
-    isAcceptedAnswer:{
-        type:Boolean,
-        required:true
-    },
     fileUrl:{
         type:String
     }

@@ -16,6 +16,7 @@ const registerUser = async (req, res) => {
         _id: user.id,
         name: user.name,
         email: user.email,
+        reputation: user.reputation,
         token: generateToken(user._id)
     });
     } catch (error) {
