@@ -1,7 +1,7 @@
 import axios from "axios";
 import { store } from "../store/store";
 const instance = axios.create({
-  baseURL: "http://localhost:5001/api", 
+  baseURL: "https://websprint-qfz3.onrender.com/api", 
 });
 instance.interceptors.request.use((config) => {
   const token = store.getState().auth.token;
