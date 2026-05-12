@@ -80,7 +80,7 @@ export default function CreatePost() {
                 className="w-full px-5 py-3.5 bg-gray-50 rounded-xl border border-gray-200 focus:outline-none focus:ring-4 focus:ring-violet-500/20 focus:border-violet-500 transition-all font-medium font-medium text-gray-700 cursor-pointer"
               >
                 <option value="Doubt">🔴 Ask a Doubt</option>
-                <option value="Notes">🔵 Request Notes</option>
+                <option value="NoteRequest">🔵 Request Notes</option>
               </select>
             </div>
 
